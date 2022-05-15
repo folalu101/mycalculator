@@ -9,6 +9,8 @@
 // document.write(sub(number1, number2));
 // alert(sub(number1, number2));
 
+
+
 // using prompt to collect user input for division
 // let number1 = parseInt(prompt("first number"));
 // let number2 = parseInt(prompt("second number"));
@@ -20,3 +22,16 @@
 // console.log(div(number1, number2, number3));
 // document.write(div(number1, number2, number3));
 // alert(div(number1, number2, number3));
+
+
+// using prompt to collect user input for division
+let number1 = parseInt(prompt("first number"));
+let number2 = parseInt(prompt("second number"));
+let number3 = parseInt(prompt("third number"));
+
+function multiply(number1, number2, number3){
+    return number1 * number2 * number3;
+}
+console.log(multiply(number1, number2, number3));
+document.write(multiply(number1, number2, number3));
+alert(multiply(number1, number2, number3));
